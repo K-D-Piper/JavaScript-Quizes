@@ -45,8 +45,9 @@ let Days = 365
 let TotalDays = MyAge * Days
 console.log(TotalDays)
 
-//QUIZZES DAY ONE PART ONE : END 
-//QUIZZES DAY ??? : START
+//! DAY 1 (7/29/2024) QUIZ END
+
+// DAY 2 (7/31/2024) QUIZ START
 
 
 //! Access Array Elements
@@ -106,4 +107,133 @@ colors[2] = "cyan"
 colors[4] = "orange"
 console.log(colors)
 
-// QUIZZES DAY ONE PART TWO: END 
+// DAY 2 (7/31/2024) QUIZ END
+// DAY 3 (8/1/2024) QUIZ START
+
+
+//! Favorite Fruit Checker (1)
+//TODO define an array of favorite fruits
+//TODO define a variable for the fruit to check 
+//* Check if the fruit is in the array and output the results
+
+let best_fruits = ["strawberries" , "cherries", "kiwis"];
+best_fruits = ["pickles"]
+
+if(best_fruits == true){
+    console.log("Gimmie dat fruit!")
+} else {
+    console.log("You can keep that sad fruit. ")
+}
+
+//! Grade Categorizer (2)
+//TODO Define a varable for the grade
+//TODO Catergorize the grade
+//* Output the result
+
+//(needs double check/fix)
+let grade = [true, 50]
+
+switch (grade == true && grade == 100){
+ case grade >= 90: 
+    console.log("A")
+    break;
+ case grade >= 80: 
+    console.log("B")
+    break;
+ case (grade >= 70):
+    console.log("C")
+    break;
+ case (grade >= 60):
+    console.log("D")
+    break;
+ case (grade <= 59):
+    console.log("E")
+    break;
+}
+
+//! Day of the week checker (3)
+//TODO Define an array of days of the week
+//TODO Define a variable for the day to check
+//TODO Check if the day is a weekend or weekday 
+//* Output the results 
+
+let days_of_week = ["Monday" , "Tuesday" , "Wednesday" , "Thursday" , "Friday" , "Saturday" , "Sunday"]
+days_of_week = "Saturday"
+
+if (days_of_week == [ "Monday" , "Tuesday" , "Wednesday" , "Thursday" , "Friday"]){
+    console.log( "Weekday")
+} else {
+    console.log("Weekend")
+}
+
+//! Tempature Checker (4)
+//TODO Define a variable for the tempature 
+//TODO Catagorize the tempature and 
+//* output the result 
+
+let temp = 92
+
+if (temp >=90){
+    console.log("it's hot")
+} else if (temp <= 89 && temp >= 60){
+    console.log("it's nice")
+} if (temp <=59 ) {
+    console.log("it's cold")
+}
+
+//! Number Sign Checker (5)
+//TODO Define a variable for the number 
+//TODO Check the sign of the number 
+//* output the result 
+
+let sign_num = 50
+
+if(sign_num ===50) {
+    console.log( "Thats a good sign")
+} else {
+    console.log("Thats not a good sign.")
+}
+
+//DAY 3 (8/1/2024) QUIZ END
+//DAY 4 (8/2/2024) QUIZ START
+
+
+//Q1
+let fruits = ["apple" , "banana" , "cherry"]
+console.log(fruits[1])
+
+//Q2
+let numbers = [1 , 2 , 3 , 4, 5]
+console.log (numbers[0]+ numbers[2])
+
+//Q3  (come back)
+
+let languages = ["JavaScript" , "Python" , "Java"]
+let language.push = ["Ruby"]
+console.log(languages[1,4,3])
+
+
+//Q4
+
+let age = 20
+    
+if (age >= 18) {
+    console.log("Eligible to Vote")
+} else{
+    console.log("Sorry Kid. Not Eligable to Vote. ")
+}
+
+//Q5
+
+let cities = ["New York" , "Los Angeles" , "Chicago"]
+let lastcity = cities[2]
+console.log(lastcity)
+
+//Q6 
+let x = 7
+
+if (x > 5 || x < 10) {
+    console.log ("In range")
+} else {
+    console.log ("Out of range")
+}
